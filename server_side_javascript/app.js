@@ -36,7 +36,7 @@ app.post('/form_receiver',function(req, res){
 //   ${topics[req.query.id]}
 //   `
 //   res.send(output);
-// })
+// }) 
 
 app.get('/template', function(req, res){
   res.render('temp', {time:Date(), title:'Jade'});
